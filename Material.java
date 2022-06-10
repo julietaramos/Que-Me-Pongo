@@ -1,0 +1,11 @@
+public enum Material {
+  SEDA,
+  JEAN,
+  LANA,
+  ALGODON,
+  CUERO,
+  GAMUZA,
+  ACETATO,
+  PLASTICO,
+  FRIZA
+}
