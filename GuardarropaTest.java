@@ -23,18 +23,17 @@ public class GuardarropaTest {
     guardarropa = new Guardarropa(ian);
     ian.agregarGuardarropa(guardarropa);
 
-    Prenda camperaInvernal = new Prenda(Categoria.PARTE_SUPERIOR, Tipo.CAMPERA, new Tela(Material.FRIZA),frio, negro);
     Prenda musculosaRoja = new Prenda(Categoria.PARTE_SUPERIOR, Tipo.MUSCULOSA, new Tela(Material.ALGODON), calor, rojo);
     Prenda sweaterVerde = new Prenda(Categoria.PARTE_SUPERIOR, Tipo.SWEATER, new Tela(Material.LANA), frio, verde);
-    Prenda bermudaAzul = new Prenda(Categoria.PARTE_INFERIOR, Tipo.BERMUDA, new Tela(Material.JEAN), calor, azul);
+    Prenda bermudaAzul = new Prenda(Categoria.PARTE_INFERIOR, Tipo.POLLERA, new Tela(Material.JEAN), calor, negro);
     Prenda jeanNegro = new Prenda(Categoria.PARTE_INFERIOR, Tipo.PANTALON, new Tela(Material.JEAN), frio, negro);
     Prenda shortBlanco = new Prenda(Categoria.PARTE_INFERIOR, Tipo.SHORT, new Tela(Material.ALGODON), calor, blanco);
     Prenda zapatosDeCuero = new Prenda(Categoria.CALZADO, Tipo.ZAPATO, new Tela(Material.CUERO), new RangoDeTemperaturas(), negro);
     Prenda ojotasBlancas = new Prenda(Categoria.CALZADO, Tipo.OJOTA, new Tela(Material.PLASTICO), calor, blanco);
     Prenda bufandaNegra = new Prenda(Categoria.ACCESORIO, Tipo.BUFANDA, new Tela(Material.LANA), frio, negro);
-    Prenda anillo = new Prenda(Categoria.ACCESORIO, Tipo.ANILLO, new Tela(Material.SEDA), new RangoDeTemperaturas(), negro);
+    Prenda anillo = new Prenda(Categoria.ACCESORIO, Tipo.PULSERA, new Tela(Material.SEDA), new RangoDeTemperaturas(), negro);
 
-    ian.agregarPrendas(guardarropa,camperaInvernal,musculosaRoja,sweaterVerde,bermudaAzul,jeanNegro,shortBlanco,zapatosDeCuero,ojotasBlancas,bufandaNegra);
+    julieta.agregarPrendas(guardarropa,musculosaRoja,sweaterVerde,bermudaAzul,jeanNegro,polleraNegro,zapatosDeCuero,ojotasBlancas,bufandaNegra);
   }
 
   @Test
